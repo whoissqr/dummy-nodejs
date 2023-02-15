@@ -1,9 +1,13 @@
 {
   "name": "dummy-nodejs",
+  "author": "Shi Chao",
   "private": true,
-  "version": "1.0.0",
-  "description": "A dummy nodejs server by Shi Chao",
+  "version": "1.3.0",
+  "description": "A dummy nodejs server",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.13.4",
     "heapdump": "^0.3.15"
