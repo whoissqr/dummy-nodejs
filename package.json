@@ -1,0 +1,11 @@
+{
+  "name": "dummy-nodejs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A dummy nodejs server by Shi Chao",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "heapdump": "^0.3.15"
+  }
+}
