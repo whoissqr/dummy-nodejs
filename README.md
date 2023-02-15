@@ -13,4 +13,5 @@ docker build -t examplenode .
 # run the docker image
 ```
 docker run -d -p 3000:3000 --name node-app examplenode
+docker exec -it 1459cffd335d ls /tmp/ -lrt
 ```
