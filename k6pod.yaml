@@ -4,15 +4,15 @@ metadata:
   name: simple
 spec:
   containers:
-    - name: simple
+    - name: load
       image: docker.io/grafana/k6
       args:
       - run
-      - /m/simple.js
+      - /m/load.js
       volumeMounts:
-      - name: simple
+      - name: load
         mountPath: /m
   volumes:
-    - name: simple
+    - name: load
       configMap:
-        name: simple
+        name: load
