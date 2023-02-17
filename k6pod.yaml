@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: simple
+  name: k6pod
 spec:
   containers:
     - name: load
